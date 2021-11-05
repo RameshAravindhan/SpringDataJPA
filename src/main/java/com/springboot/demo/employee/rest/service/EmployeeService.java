@@ -14,4 +14,8 @@ public interface EmployeeService {
 
     void delete(int id);
 
+    void printThread() throws InterruptedException;
+
+
+
 }
